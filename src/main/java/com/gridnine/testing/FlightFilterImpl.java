@@ -19,7 +19,7 @@ public class FlightFilterImpl implements FlightFilter {
      * Method of displaying departures to the current point in time.
      */
     @Override
-    public List<Flight> DepartureToTheCurrentPointInTime(List<Flight> flights) {
+    public List<Flight> departureToTheCurrentPointInTime(List<Flight> flights) {
         for (Flight flight : flights) {
             segs.addAll(flight.getSegments());
             while (segs.size() > 0) {

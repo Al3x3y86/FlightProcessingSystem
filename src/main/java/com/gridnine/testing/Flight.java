@@ -7,14 +7,14 @@ import java.util.stream.Collectors;
  * Bean that represents a flight.
  */
 
-class Flight {
+public class Flight {
     private final List<com.gridnine.testing.Segment> segments;
 
-    Flight(final List<com.gridnine.testing.Segment> segs) {
+    public Flight(final List<com.gridnine.testing.Segment> segs) {
         segments = segs;
     }
 
-    List<Segment> getSegments() {
+    public List<Segment> getSegments() {
         return segments;
     }
 

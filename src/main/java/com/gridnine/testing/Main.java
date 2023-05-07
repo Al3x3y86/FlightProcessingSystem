@@ -13,7 +13,7 @@ public class Main {
         System.out.println("-----------------------------------");
 
         System.out.println("Flights with departure before the current time:");
-        flightFilter.DepartureToTheCurrentPointInTime(flights);
+        flightFilter.departureToTheCurrentPointInTime(flights);
 
         System.out.println("Flights segments, with arrival date earlier than departure date:");
         flightFilter.thereAreSegmentsWithTheArrivalDateEarlierThanTheDepartureDate(flights);
